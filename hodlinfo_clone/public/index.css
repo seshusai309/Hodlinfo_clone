@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 576px) {
        .nav-heading{
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 0;
        }
        .nav-options{
@@ -60,10 +60,11 @@
         font-size: 8px;
        }
        .btn{
-        padding: 10px;
-        font-size: medium; 
+        padding: 5px;
+        font-size: 8px; 
         margin-right: 0;
        }
+       
 }
 
 .heading1{
@@ -73,6 +74,12 @@
     font-weight: 600;
     color: #808288;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 576px){
+    .heading1{
+        font-size: 20px;
+    }
 }
 
 .sub-container{
@@ -109,6 +116,18 @@
     color: #808288;
     font-size: 20px;
     font-weight: 400;   
+}
+
+@media screen and (max-width: 576px){
+    .head-opt{
+        font-size: 20px;
+    }
+    .para-opt{
+        font-size: 10px;
+    }
+    .mainHeadOpt{
+        font-size: 50px;
+    }
 }
 
 .toggle-button {
@@ -197,6 +216,8 @@
     font-size: small;
 }
 
+
+
 .components-container{ 
     margin-top: 100px;
 }
@@ -210,3 +231,15 @@
     margin: 20px 30px 20px 30px;
     border-radius: 20px;
 } 
+
+@media screen and (max-width: 576px) {
+    .components{
+        font-size: 6px;
+    }
+    .components-container{ 
+        margin-top: 60px;
+    }
+    .components2{
+        font-size: 5px;
+    }
+}
