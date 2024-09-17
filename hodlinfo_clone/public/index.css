@@ -4,6 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -83,7 +84,7 @@
 }
 
 .sub-container{
-    height: 100vh;
+    height: 150vh;
     background-color: #191d28;
 }
 
